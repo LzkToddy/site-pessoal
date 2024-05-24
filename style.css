@@ -1,4 +1,3 @@
-Claro, vou separar o CSS em um arquivo `styles.css` para uma melhor organização:
 
 HTML (index.html):
 ```html
@@ -60,6 +59,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
-```
 
-Este código separa o CSS em um arquivo `styles.css`, mantendo a mesma aparência e funcionalidade do exemplo anterior.
