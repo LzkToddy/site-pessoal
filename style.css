@@ -1,7 +1,65 @@
+Claro, vou separar o CSS em um arquivo `styles.css` para uma melhor organização:
+
+HTML (index.html):
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>League of Legends</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>League of Legends</h1>
+</header>
+
+<section>
+    <h2>Sobre League of Legends</h2>
+    <p>League of Legends é um jogo eletrônico do gênero multiplayer online battle arena (MOBA) desenvolvido e publicado pela Riot Games. No jogo, os jogadores assumem o papel de "invocadores", controlando campeões com habilidades únicas e batalhando em equipes para destruir a base inimiga.</p>
+    
+    <h2>Campeões</h2>
+    <p>League of Legends conta com uma grande variedade de campeões, cada um com suas próprias habilidades e estilos de jogo. Alguns exemplos de campeões incluem Ahri, Yasuo, Lux, Jinx, e muitos outros.</p>
+    
+    <h2>Jogabilidade</h2>
+    <p>A jogabilidade de League of Legends é focada em estratégia, trabalho em equipe e habilidade individual. Os jogadores devem coordenar seus esforços para controlar o mapa, derrotar os adversários e destruir as estruturas inimigas para alcançar a vitória.</p>
+</section>
+
+<footer>
+    <p>© 2024 League of Legends. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
+```
+
+CSS (styles.css):
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 header {
-    background: #00c3ff;
-  
-    }
- body {
-  background: #00c3ff;
- }
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+```
+
+Este código separa o CSS em um arquivo `styles.css`, mantendo a mesma aparência e funcionalidade do exemplo anterior.
