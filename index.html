@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Document </title>
-      <link rel="stylesheet" href="style.css">  
-</head>
-<body>
-  <header class="cabecalho">  
- 
-    <img class="cabecalho-imagem" src="images.jpg" alt="logo league ">  
-   
-    </header>  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Image Color</title>
+    <style>
+        .colored-img {
+            filter: hue-rotate(90deg); /* Altere o ângulo para mudar a cor */
+        }
+    </style>
+    </head>
+    <body>
+
+      <h2>Imagem Original</h2>
+      <img src="original.jpg" alt="Imagem Original">
+      
+      <h2>Imagem com Cor Alterada</h2>
+      <img src="original.jpg" alt="Imagem com Cor Alterada" class="colored-img">
+      
+      </body>
